@@ -1,0 +1,9 @@
+.container {
+	font-family: Open Sans, Helvetica, sans-serif;
+}
+
+#githubImage {
+	border-radius: 5px;
+	height: 256px;
+	width: 256px;
+}

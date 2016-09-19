@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>GitHub Lite</title>
+		<script type="text/javascript" src="./bower_components/jquery/dist/jquery.min.js"></script>
+		<script type="text/javascript" src="./js/script.js"></script>
+		<link rel="stylesheet" type="text/css" href="./css/styles.css">
+		<link rel="stylesheet" type="text/css" href="./bower_components/bootstrap/dist/css/bootstrap.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+	</head>
+	<body>
+		<div>
+
+			<div class="container alert alert-danger alert-dismissible" role="alert" id="usernameAlert">
+			  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			  Please enter a username!
+			</div>
+
+			<nav class="navbar navbar-default">
+				<div class="container container-fluid">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="">GitHub Lite</a>
+					</div>
+					<form class="navbar-form nav navbar-nav navbar-right">
+						<div class="form-group">
+							<input type="text" class="form-control" placeholder="GitHub Username" id="searchInput">
+						</div>
+						<button type="submit" class="btn btn-default" id="searchButton">Search</button>
+					</form>
+					</div><!-- /.container-fluid -->
+				</nav>
+					<!-- Page One -->
+ 					<section class="container app" id="pageOne">
+						<div class="jumbotron">
+							<h1>Welcome to GitHub Lite</h1>
+						</div>
+					</section>
+
+					<!-- Page Two -->
+					<section class="container app" id="pageTwo">
+						<div class="jumbotron">
+							<div class="col-md-6">
+								<h1 id="pageTwoHeader"></h1>
+								<h4>Username: <strong><span id="username"></span></strong></h4>
+								<h4>Company: <strong><span id="company"></span></strong></h4>
+								<h4>Location: <strong><span id="location"></span></strong></h4>
+								<h4>Blog: <strong><span id="blog"></span></strong></h4>
+							</div>
+							<div class="col-md-6">
+								<img src="" id="githubImage"/>
+							</div>
+						</div>
+						<div class="container">
+						</div>
+					</section>
+
+					<!-- Page Three -->
+
+
+			</div>
+		</body>
+	</html>
